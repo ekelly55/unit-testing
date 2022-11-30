@@ -1,0 +1,11 @@
+why unit test from the strart?
+
+Make better architectural decisions. Code changes, but some decisions about platform, modules, structure, and others need to be made during the early stages of a project.
+
+When you start thinking about unit testing right at the start, it will help you structure your code better and achieve proper separation of concerns. You won't be tempted to assign multiple responsibilities to single code blocks as those would be a nightmare to unit-test.
+
+Pinpoint functionality before coding. You write the method's signature and start implementing it right away. Oh, but what should happen in case a parameter is null? What if its value is outside of the expected range or contains too many characters? Do you throw an exception or return null?
+
+Unit tests will help you discover all these cases. Look at the questions again and you'll find it's exactly what defines your unit test cases.
+
+I'm sure there are many more benefits to writing unit tests. These are just the ones that I recall from my experience. Those that I learned the hard way.
